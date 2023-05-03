@@ -18,7 +18,7 @@ export default function Nav() {
   return (
     <MDBNavbar expand='lg' light bgColor='light' >
       <MDBContainer fluid >
-        <MDBNavbarBrand href='/'>Website Application</MDBNavbarBrand>
+        <MDBNavbarBrand href='/web-application/'>Website Application</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -33,12 +33,12 @@ export default function Nav() {
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='/'>
+              <MDBNavbarLink active aria-current='page' href='/web-application/'>
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='/'>
+              <MDBNavbarLink active aria-current='page' href='/web-application/'>
                 Portfolio
               </MDBNavbarLink>
             </MDBNavbarItem>
