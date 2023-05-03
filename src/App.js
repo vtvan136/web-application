@@ -12,7 +12,7 @@ const App = () => {
       <Form/>
       <Nav/>
       <Routes>
-        <Route path="/web-application/" element={<Home />} />
+        <Route path="/web-application" element={<Home />} />
         <Route path="/to-do" element={<ToDo />} />
         <Route path="*" element={<Error />} />
       </Routes>
